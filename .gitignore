@@ -1,0 +1,30 @@
+# Local tooling and generated output.
+.gradle/
+.kotlin/
+**/build/
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+.DS_Store
+
+# Machine-specific configuration and signing material.
+local.properties
+.env
+.env.*
+!.env.example
+keystore.properties
+signing.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Distribution artifacts are built locally, not checked in.
+*.apk
+*.aab
+*.idsig

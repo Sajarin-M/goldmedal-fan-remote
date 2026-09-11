@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fan Remote</string>
+    <string name="boost">Boost</string>
+    <string name="power">Power on or off</string>
+    <string name="send_failed">Couldn’t send the infrared signal. Try again.</string>
+    <string name="unavailable">This phone cannot transmit the required infrared signal.</string>
+    <string name="speed_one">Speed 1</string>
+    <string name="speed_two">Speed 2</string>
+    <string name="speed_three">Speed 3</string>
+    <string name="speed_four">Speed 4</string>
+    <string name="speed_five">Speed 5</string>
+    <string name="led_toggle">LED on or off</string>
+    <string name="led">LED</string>
+    <string name="timers">Timers</string>
+    <string name="timer_two_hours">Timer 2 hours</string>
+    <string name="timer_two_hours_short">2H</string>
+    <string name="timer_four_hours">Timer 4 hours</string>
+    <string name="timer_four_hours_short">4H</string>
+    <string name="timer_eight_hours">Timer 8 hours</string>
+    <string name="timer_eight_hours_short">8H</string>
+</resources>

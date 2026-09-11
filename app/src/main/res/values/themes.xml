@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.FanRemote" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#101216</item>
+        <item name="android:colorAccent">#B4CEEF</item>
+    </style>
+    <style name="Theme.FanRemote.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#101216</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_fan</item>
+        <item name="postSplashScreenTheme">@style/Theme.FanRemote</item>
+    </style>
+</resources>
