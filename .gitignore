@@ -28,8 +28,3 @@ signing.properties
 *.apk
 *.aab
 *.idsig
-
-# Local agent artifacts
-.agents/
-.claude/
-skills-lock.json
