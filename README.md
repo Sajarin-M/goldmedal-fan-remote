@@ -60,7 +60,7 @@ Three inactive values are retained for future compatibility work, not exposed or
 
 ## GitHub and distribution
 
-Generated files, local SDK paths and signing material are ignored. The Gradle wrapper JAR is intentionally tracked. The repository is [Sajarin-M/goldmedal-fan-remote](https://github.com/Sajarin-M/goldmedal-fan-remote), currently private. No CI or Git hooks are configured. Choose a license before presenting the project as open source; none is selected yet.
+Generated files, local SDK paths and signing material are ignored. The Gradle wrapper JAR is intentionally tracked. The repository is [Sajarin-M/goldmedal-fan-remote](https://github.com/Sajarin-M/goldmedal-fan-remote), licensed under the [MIT License](LICENSE). No CI or Git hooks are configured. The hosted privacy policy is at https://sajarin-m.github.io/goldmedal-fan-remote/.
 
 Debug APKs are signed with a local development key. Release builds here are **unsigned**. To distribute an APK, sign the optimized APK with a private release key. To publish on Play, create a signed release App Bundle using Android Studio’s **Generate Signed Bundle / APK**, or configure private signing locally. Keep signing credentials outside this repository and back them up securely. [Android signing guide](https://developer.android.com/studio/publish/app-signing)
 
